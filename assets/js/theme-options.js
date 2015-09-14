@@ -27,18 +27,18 @@ var slider_keyboard = true; //control the slider using direction arrows (keyboar
 
 /************ Social Media ************/
 
-var facebook_link = "http://www.facebook.com";
-var twitter_link = "http://www.twitter.com";
+var facebook_link = "";
+var twitter_link = "";
 var google_plus_link = "";
 var dribbble_link = "";
-var instagram_link = "http://instagram.com/";
+var instagram_link = "https://instagram.com/sponsored_by_the_sun/";
 var tumblr_link = "";
 var youtube_link = "";
 var vimeo_link = "";
 var pinterest_link = "";
 var flickr_link = "";
 var linkedin_link = "";
-var github_link = "http://www.github.com";
+var github_link = "";
 var rss_link = false;
 
 /********* Post Title Limit *********/
