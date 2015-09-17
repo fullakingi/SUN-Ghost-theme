@@ -8,3 +8,12 @@
     letter-spacing: 2px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.material-burger span{
+    background:#000;
+    
+    &:after,
+    &:before{
+            background: #000;
+        }
+}
