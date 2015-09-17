@@ -11,9 +11,13 @@
 
 .material-burger span{
     background:#000;
-    
-    &:after,
-    &:before{
-            background: #000;
-        }
+}
+
+.material-burger span:after,
+.material-burger span:before {
+    background: #000;
+}
+
+.menu-btn::selection {
+    background: transparent;
 }
