@@ -13,8 +13,13 @@
     font-family: 'Source Sans Pro', sans-serif;
     
     a:link, 
-    a:visited{
+    a:visited {
         color: #000;
+        opacity: 0.7;
+    }
+    
+    a:hover {
+        opacity: 1.0;
     }
     
     .nav-current a {
