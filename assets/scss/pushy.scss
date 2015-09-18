@@ -43,13 +43,14 @@
         opacity: 1 !important;
     }
 
-    .nav-current a{
-        background: $primary-color;
-        color: #FFF !important;
-        border-bottom: 0 !important;
-        padding-bottom: 10px !important;
+    .nav-current a {
+        color: #eb882e !important;
+        padding: 10px 20px !important;
     }
 
+    .nav-current a:hover {
+        color: #FFF !important;
+    }
 }
 
 .no-csstransforms3d{
