@@ -1,0 +1,38 @@
+@import "variables";
+
+.site-header {
+    .blog-logo {
+        height: 40px;
+    }
+}
+
+.nav {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    a:link, 
+    a:visited {
+        color: #000;
+        opacity: 0.7;
+    }
+    
+    a:hover {
+        opacity: 1.0;
+    }
+    
+    .nav-current a {
+        color: #eb882e;
+        border-bottom: 0px solid $primary-color;
+    }
+}
+
+.menu-btn::selection {
+    background: transparent;
+}
+
+a:link, 
+a:visited{
+    color: #eb882e;
+}

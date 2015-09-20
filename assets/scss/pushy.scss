@@ -43,13 +43,14 @@
         opacity: 1 !important;
     }
 
-    .nav-current a{
-        background: $primary-color;
-        color: #FFF !important;
-        border-bottom: 0 !important;
-        padding-bottom: 10px !important;
+    .nav-current a {
+        color: #eb882e !important;
+        padding: 10px 20px !important;
     }
 
+    .nav-current a:hover {
+        color: #FFF !important;
+    }
 }
 
 .no-csstransforms3d{
@@ -137,7 +138,7 @@
         height: 2px;
         top: 50%;
         left: 0;
-        background: #FFF;
+        background: #000;
         margin-top: -2px;
         -webkit-transition: background-color 0.3s;
         transition: background-color 0.3s;
@@ -146,7 +147,7 @@
         &:before{
             content: '';
             position: absolute;
-            background: #FFF;
+            background: #000;
             width: 100%;
             height: 100%;
             left: 0;

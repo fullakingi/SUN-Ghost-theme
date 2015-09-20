@@ -47,8 +47,9 @@ module.exports = function(grunt) {
         options: {
           style: 'compressed' //output style: nested, compact, compressed, expanded
         },
-        files: {                         
-          'assets/css/screen.css': 'assets/scss/screen.scss' // 'destination': 'source'
+        files: {
+          'assets/css/screen.css': 'assets/scss/screen.scss', // 'destination': 'source'
+          'assets/css/custom.css': 'assets/scss/custom.scss', // 'destination': 'source'
         }
       }
     }
