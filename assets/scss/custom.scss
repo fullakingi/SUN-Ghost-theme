@@ -49,6 +49,15 @@ a:visited{
     }
 }
 
+.author-template,
+.tag-template {
+    h1 {
+        &:after {
+            display: none;
+        }
+    }
+}
+
 .post-template,
 .page-template {
     .post {
